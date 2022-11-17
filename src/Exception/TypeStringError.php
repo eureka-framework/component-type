@@ -9,13 +9,8 @@
 
 declare(strict_types=1);
 
-namespace Eureka\Component\Template;
+namespace Eureka\Component\Type;
 
-/**
- * DataMapper Data abstract class.
- *
- * @author Romain Cottard
- */
-class DummySrc
+class TypeStringError extends \TypeError
 {
 }

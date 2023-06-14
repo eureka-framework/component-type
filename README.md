@@ -1,6 +1,6 @@
 # component-type
 [![Current version](https://img.shields.io/packagist/v/eureka/component-type.svg?logo=composer)](https://packagist.org/packages/eureka/component-type)
-[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=7.4|8.0|8.1&color=777bb4)](https://packagist.org/packages/eureka/component-type)
+[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=7.4%20-%208.2&color=777bb4)](https://packagist.org/packages/eureka/component-type)
 ![CI](https://github.com/eureka-framework/component-type/workflows/CI/badge.svg)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-type&metric=alert_status)](https://sonarcloud.io/dashboard?id=eureka-framework_component-type)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-type&metric=coverage)](https://sonarcloud.io/dashboard?id=eureka-framework_component-type)
@@ -32,7 +32,7 @@ To ensure you code still compatible with current supported version and futures v
 run the following commands (both are required for full support):
 ```bash
 make php74compatibility # run compatibility check on current minimal version of php we support
-make php81compatibility # run compatibility check on last version of php we will support in future
+make php82compatibility # run compatibility check on last version of php we will support in future
 ```
 
 And the last "helper" commands, you can run before commit and push is:
